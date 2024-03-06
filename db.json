@@ -1,72 +1,83 @@
 {
-  "defaultAccounts": [
-    {
-      "id": "uuid-1",
-      "accountId": "La Caixa",
-      "type": "Bank",
-      "balance": 1400.8,
-      "incomes": [
-        {
-          "amount": 976,
-          "description": "Medistream",
-          "category": "Salary",
-          "date": "2024-01-24"
-        },
-        {
-          "amount": 30,
-          "description": "Abuelita",
-          "category": "Gift",
-          "date": "2024-01-24"
-        }
-      ],
-      "expenses": [
-        {
-          "amount": 40.5,
-          "description": "Ropa",
-          "category": "Other",
-          "date": "2024-01-24"
-        },
-        {
-          "amount": 5.3,
-          "description": "Birras",
-          "category": "Food",
-          "date": "2024-01-24"
-        }
-      ]
-    },
-    {
-      "id": "uuid-2",
-      "accountId": "Paypal",
-      "type": "Paypal",
-      "balance": 2500,
-      "incomes": [
-        {
-          "amount": 1200,
-          "description": "Freelancing",
-          "category": "Online",
-          "date": "2023-10-24"
-        },
-        {
-          "amount": 350,
-          "description": "Etsy Sales",
-          "category": "Other",
-          "date": "2023-11-09"
-        }
-      ],
-      "expenses": [
-        {
-          "amount": 200,
-          "description": "Art Supplies",
-          "category": "Other",
-          "date": "2023-12-24"
-        },
-        {
-          "amount": 100,
-          "description": "Online Courses",
-          "category": "Education",
-          "date": "2023-06-04"
-        }
-      ]
-    }
-  ]
+  "user": {
+    "name": "Usuario1",
+    "email": "usuario1@example.com",
+    "password": "passwordSeguro123",
+    "accounts": [
+      {
+        "accountId": "LaCaixa123",
+        "type": "Bank",
+        "balance": 1500.50,
+        "incomes": [
+          {
+            "amount": 1000,
+            "description": "Salario",
+            "category": "Salario",
+            "date": "2024-02-15",
+            "type": "Income"
+          },
+          {
+            "amount": 200,
+            "description": "Venta de acciones",
+            "category": "Inversión",
+            "date": "2024-02-20",
+            "type": "Income"
+          }
+        ],
+        "expenses": [
+          {
+            "amount": 50,
+            "description": "Compra de café",
+            "category": "Alimentación",
+            "date": "2024-02-16",
+            "type": "Expense"
+          },
+          {
+            "amount": 300,
+            "description": "Renta de apartamento",
+            "category": "Hogar",
+            "date": "2024-02-01",
+            "type": "Expense"
+          }
+        ]
+      },
+      {
+        "accountId": "Paypal456",
+        "type": "Online Payment",
+        "balance": 250.75,
+        "incomes": [
+          {
+            "amount": 150,
+            "description": "Reembolso",
+            "category": "Otros",
+            "date": "2024-02-18",
+            "type": "Income"
+          },
+          {
+            "amount": 100,
+            "description": "Transferencia recibida",
+            "category": "Transferencia",
+            "date": "2024-02-22",
+            "type": "Income"
+          }
+        ],
+        "expenses": [
+          {
+            "amount": 75,
+            "description": "Suscripción a servicios de streaming",
+            "category": "Entretenimiento",
+            "date": "2024-02-12",
+            "type": "Expense"
+          },
+          {
+            "amount": 25,
+            "description": "Compra de libros",
+            "category": "Educación",
+            "date": "2024-02-07",
+            "type": "Expense"
+          }
+        ]
+      }
+    ]
+  }
 }
