@@ -8,13 +8,13 @@
       "incomes": [
         {
           "amount": 976,
-          "source": "Medistream",
+          "description": "Medistream",
           "category": "Salary",
           "date": "2024-01-24"
         },
         {
           "amount": 30,
-          "source": "Abuelita",
+          "description": "Abuelita",
           "category": "Gift",
           "date": "2024-01-24"
         }
@@ -42,13 +42,13 @@
       "incomes": [
         {
           "amount": 1200,
-          "source": "Freelancing",
+          "description": "Freelancing",
           "category": "Online",
           "date": "2023-10-24"
         },
         {
           "amount": 350,
-          "source": "Etsy Sales",
+          "description": "Etsy Sales",
           "category": "Other",
           "date": "2023-11-09"
         }
