@@ -8,6 +8,7 @@
         "accountId": "LaCaixa123",
         "type": "Bank",
         "balance": 1500.50,
+        "userId": 1,  // Se añade el userId asociado al usuario correspondiente
         "movements": [
           {
             "amount": 1000,
@@ -43,6 +44,7 @@
         "accountId": "Paypal456",
         "type": "Online Payment",
         "balance": 250.75,
+        "userId": 1,  // Se añade el userId asociado al usuario correspondiente
         "movements": [
           {
             "amount": 150,
