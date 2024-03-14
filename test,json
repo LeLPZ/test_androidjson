@@ -1,0 +1,81 @@
+{
+  "user": {
+    "name": "Usuario1",
+    "email": "usuario1@example.com",
+    "password": "passwordSeguro123",
+    "accounts": [
+      {
+        "accountId": "LaCaixa123",
+        "type": "Bank",
+        "balance": 1500.50,
+        "userId": 1,
+        "movements": [
+          {
+            "amount": 1000,
+            "description": "Salario",
+            "category": "Salario",
+            "date": "2024-02-15",
+            "type": "Income"
+          },
+          {
+            "amount": 200,
+            "description": "Venta de acciones",
+            "category": "Inversión",
+            "date": "2024-02-20",
+            "type": "Income"
+          },
+          {
+            "amount": 50,
+            "description": "Compra de café",
+            "category": "Alimentación",
+            "date": "2024-02-16",
+            "type": "Expense"
+          },
+          {
+            "amount": 300,
+            "description": "Renta de apartamento",
+            "category": "Hogar",
+            "date": "2024-02-01",
+            "type": "Expense"
+          }
+        ]
+      },
+      {
+        "accountId": "Paypal456",
+        "type": "Online Payment",
+        "balance": 250.75,
+        "userId": 1,
+        "movements": [
+          {
+            "amount": 150,
+            "description": "Reembolso",
+            "category": "Otros",
+            "date": "2024-02-18",
+            "type": "Income"
+          },
+          {
+            "amount": 100,
+            "description": "Transferencia recibida",
+            "category": "Transferencia",
+            "date": "2024-02-22",
+            "type": "Income"
+          },
+          {
+            "amount": 75,
+            "description": "Suscripción a servicios de streaming",
+            "category": "Entretenimiento",
+            "date": "2024-02-12",
+            "type": "Expense"
+          },
+          {
+            "amount": 25,
+            "description": "Compra de libros",
+            "category": "Educación",
+            "date": "2024-02-07",
+            "type": "Expense"
+          }
+        ]
+      }
+    ]
+  }
+}
