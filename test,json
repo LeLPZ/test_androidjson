@@ -17,7 +17,7 @@
       "accountId": "LaCaixa123",
       "amount": 1000,
       "description": "Salario",
-      "category": "Salario",
+      "category": "Salary",
       "date": "2024-02-15",
       "type": "Income"
     },
@@ -26,7 +26,7 @@
       "accountId": "LaCaixa123",
       "amount": 200,
       "description": "Venta de acciones",
-      "category": "Inversión",
+      "category": "Online",
       "date": "2024-02-20",
       "type": "Income"
     },
@@ -35,7 +35,7 @@
       "accountId": "LaCaixa123",
       "amount": 50,
       "description": "Compra de café",
-      "category": "Alimentación",
+      "category": "Food",
       "date": "2024-02-16",
       "type": "Expense"
     },
@@ -44,7 +44,7 @@
       "accountId": "LaCaixa123",
       "amount": 300,
       "description": "Renta de apartamento",
-      "category": "Hogar",
+      "category": "Rent",
       "date": "2024-02-01",
       "type": "Expense"
     }
