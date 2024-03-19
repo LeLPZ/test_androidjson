@@ -6,24 +6,24 @@
     "password": "passwordSeguro123"
   },
   "account": {
-    "accountId": "LaCaixa123",
+    "accountId": "LaCaixa",
     "type": "Bank",
-    "balance": 1500.50,
+    "balance": 1500.75,
     "userId": 1
   },
   "movements": [
     {
       "movementId": 1,
-      "accountId": "LaCaixa123",
+      "accountId": "LaCaixa",
       "amount": 1000,
-      "description": "Salario",
+      "description": "Salario Empresa",
       "category": "Salary",
       "date": "2024-02-15",
       "type": "Income"
     },
     {
       "movementId": 2,
-      "accountId": "LaCaixa123",
+      "accountId": "LaCaixa",
       "amount": 200,
       "description": "Venta de acciones",
       "category": "Online",
@@ -32,7 +32,7 @@
     },
     {
       "movementId": 3,
-      "accountId": "LaCaixa123",
+      "accountId": "LaCaixa",
       "amount": 50,
       "description": "Compra de café",
       "category": "Food",
@@ -41,7 +41,7 @@
     },
     {
       "movementId": 4,
-      "accountId": "LaCaixa123",
+      "accountId": "LaCaixa",
       "amount": 300,
       "description": "Renta de apartamento",
       "category": "Rent",
